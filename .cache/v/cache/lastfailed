@@ -1,4 +1,4 @@
 {
   "test_array.py::TestArray::test_sum": true,
-  "tests/test_array.py": true
+  "tests/test_array.py::TestArray::()": true
 }

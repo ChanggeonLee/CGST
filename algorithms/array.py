@@ -1,4 +1,4 @@
 class Array(object):
-    def sum(self, size , array_string):
-        return 0
-
+    def sum(self, size, array_string):
+        numbers = [int(number) for number in array_string.split(' ')]
+        return sum(numbers)

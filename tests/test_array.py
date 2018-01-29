@@ -1,8 +1,8 @@
-import unittest
+import pytest
 from algorithms import array
 
-class TestArray(unittest.TestCase):
+class TestArray():
     def test_sum(self):
         instance = array.Array()
         result = instance.sum(6, '1 2 3 4 10 11')
-        self.assertEqual(result, 31)
+        assert result == 31

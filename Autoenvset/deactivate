@@ -1,0 +1,18 @@
+ac="
+                         ================================
+                         =                              =
+                         =                              =
+                         =     deactivate workspace     =
+                         =                              =
+                         =                              =
+                         ================================
+     
+                         "
+pwd="/Users/ichang-geon/Documents"
+if [ -n "$VIRTUAL_ENV" ] ; then
+   if [ "$pwd" == "$PWD" ] ; then
+       echo "$ac"
+       pyenv deactivate
+   fi
+fi
+

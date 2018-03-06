@@ -1,0 +1,15 @@
+ac="
+                    ================================
+                    =                              =
+                    =                              =
+                    =   activate CGST work space   =
+                    =                              =
+                    =                              =
+                    ================================
+
+                    "
+
+if [ -z "$VIRTUAL_ENV" ] ; then
+    echo "$ac"
+    pyenv activate CGST
+fi

@@ -137,10 +137,14 @@ int main(){
   AddNode( &list1 , 5);
   AddNode( &list1 , 10);
   AddNode( &list1 , 21);
+  AddNode( &list1 , 100);
+  AddNode( &list1 , 400);
+
 
   AddNode( &list2 , 4);
   AddNode( &list2 , 6);
   AddNode( &list2 , 10);
+  AddNode( &list2 , 500);
   
   PrintNode(list1);
   PrintNode(list2);

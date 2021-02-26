@@ -1,4 +1,4 @@
-aiohttp==2.3.6
+aiohttp==3.7.4
 async-timeout==2.0.0
 attrs==17.4.0
 backend.ai-client==1.1.1
